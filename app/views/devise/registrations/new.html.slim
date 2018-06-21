@@ -16,10 +16,10 @@
         = f.password_field :password_confirmation, class: 'form-control'
       .form-group
         = f.label :firstname
-        = f.text_field :firstname, autofocus: true, class: 'form-control'
+        = text_field_tag :firstname, class: 'form-control'
       .form-group
         = f.label :lastname
-        = f.text_field :lastname, autofocus: true, class: 'form-control'
+        = text_field_tag :lastname, class: 'form-control'
       .form-group
         = f.label :email
         = f.email_field :email, class: 'form-control'
